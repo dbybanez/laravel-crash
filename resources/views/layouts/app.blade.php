@@ -17,9 +17,14 @@
       <div class="container">
         <div class="row">
           <div class="col">
+            @include('inc.messages')
             @yield('content')
           </div>
         </div>
       </div>
+      <script src="https://cdn.ckeditor.com/4.15.0/standard/ckeditor.js"></script>
+      <script>
+        CKEDITOR.replace( 'article-ckeditor' );
+      </script>
   </body>
 </html>

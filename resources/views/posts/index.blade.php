@@ -12,7 +12,7 @@
               </div>
             </div>
         @endforeach
-        {{ $posts->links() }}
+        {{-- {{ $posts->links() }} --}}
     @else
         <p>No posts found.</p>
     @endif

@@ -27,9 +27,14 @@
         </div>
       </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="/posts/create">Create</a>
+      </li>
+    </ul>
+    {{-- <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
       <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-    </form>
+    </form> --}}
   </div>
 </nav>
